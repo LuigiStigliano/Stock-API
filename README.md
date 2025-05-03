@@ -31,7 +31,7 @@ Questa applicazione consente di visualizzare grafici dei dati di mercato azionar
 1. Apri un terminale nella directory del progetto.
 2. Esegui il comando:
    ```bash
-   python save_to_db.py
+   python src\save_to_db.py
    ```
 3. Il server sarà disponibile all'indirizzo `http://127.0.0.1:5000`.
 
