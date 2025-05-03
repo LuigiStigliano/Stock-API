@@ -51,10 +51,11 @@ Stock-API/
 │   ├── script.js        # Logica client-side per il recupero e la visualizzazione dei dati
 │   ├── index.html       # Interfaccia utente dell'applicazione web
 │   └── save_to_db.py    # Server Flask per salvare i dati nel database SQLite
+├── data/                # Cartella per il database SQLite
+│   └── stock_data.db    # Database SQLite generato automaticamente (dopo il primo avvio)
 ├── requirements.txt     # Dipendenze Python necessarie per il backend
 ├── README.md            # Documentazione del progetto
-├── LICENSE              # Licenza MIT
-└── stock_data.db        # Database SQLite generato automaticamente (dopo il primo avvio)
+└── LICENSE              # Licenza MIT
 ```
 
 ## Note importanti
