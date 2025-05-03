@@ -47,9 +47,10 @@ La struttura della cartella principale è la seguente:
 
 ```
 Stock-API/
-├── index.html           # Interfaccia utente dell'applicazione web
-├── script.js            # Logica client-side per il recupero e la visualizzazione dei dati
-├── save_to_db.py        # Server Flask per salvare i dati nel database SQLite
+├── src/                 # Cartella principale per il codice sorgente
+│   ├── script.js        # Logica client-side per il recupero e la visualizzazione dei dati
+│   ├── index.html       # Interfaccia utente dell'applicazione web
+│   └── save_to_db.py    # Server Flask per salvare i dati nel database SQLite
 ├── requirements.txt     # Dipendenze Python necessarie per il backend
 ├── README.md            # Documentazione del progetto
 ├── LICENSE              # Licenza MIT
