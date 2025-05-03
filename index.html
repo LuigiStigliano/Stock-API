@@ -32,6 +32,17 @@
         margin-top: 16px;
         min-height: 24px;
       }
+      .data-table {
+        margin-top: 20px;
+        overflow-x: auto;
+      }
+      .data-table table {
+        width: 100%;
+      }
+      .table-container {
+        max-height: 400px;
+        overflow-y: auto;
+      }
     </style>
   </head>
   <body>
@@ -67,6 +78,26 @@
         <canvas id="myChart"></canvas>
       </div>
       <div id="error" class="text-center"></div>
+      
+      <!-- Nuova sezione per la tabella dei dati -->
+      <div class="data-table mt-4">
+        <h3 class="fs-5 mb-3">Dati del Grafico</h3>
+        <div class="table-container">
+          <table id="dataTable" class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Apertura</th>
+                <th>Chiusura</th>
+                <th>Media</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- I dati verranno inseriti dinamicamente -->
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
