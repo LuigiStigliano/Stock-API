@@ -5,7 +5,7 @@ Questa applicazione consente di visualizzare grafici dei dati di mercato azionar
 
 ## Requisiti
 - Python 3.x
-- Un browser web moderno o l'estensione Live Preview di VSCode
+- Browser web o l'estensione Live Preview di VSCode
 
 ## Installazione
 1. Crea un ambiente virtuale eseguendo:
