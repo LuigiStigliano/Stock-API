@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 import sqlite3
 import os
 from flask_cors import CORS
+hola chico 
+
 
 # La libreria Flask-CORS è utilizzata per abilitare il supporto CORS (Cross-Origin Resource Sharing) nel server Flask.
 # Questo è necessario perché l'applicazione web (che gira su un dominio o porta diversa, ad esempio tramite file locale o un server web) deve comunicare con il server Flask.
