@@ -62,6 +62,3 @@ Stock-API/
 - **Non inserire mai chiavi API reali nei file di codice o nel repository pubblico.**
 - L'API key utilizzata è impostata su `demo` per scopi di test. **Con la chiave demo è possibile ottenere dati solo per il simbolo IBM.** Per utilizzare l'applicazione con dati reali, sostituisci `demo` con una chiave API valida di Alpha Vantage, ma NON committare la chiave reale.
 - Assicurati che il server Flask sia in esecuzione prima di tentare di salvare i dati nel database.
-
-## Licenza
-Questo progetto è distribuito con licenza MIT. Vedi il file LICENSE per i dettagli.
