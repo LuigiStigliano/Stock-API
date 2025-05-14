@@ -5,24 +5,28 @@ Questa applicazione consente di visualizzare grafici dei dati di mercato azionar
 
 ## Requisiti
 - Python 3.x
-- Browser web o l'estensione Live Preview di VSCode
 
 ## Installazione
-1. Crea un ambiente virtuale eseguendo:
-   ```bash
-   python -m venv .venv
+
+1. Clonare il repository:
    ```
-2. Attiva l'ambiente virtuale:
-   - Su Windows:
-     ```bash
-     .venv\Scripts\activate
-     ```
-   - Su macOS/Linux:
-     ```bash
-     source .venv/bin/activate
-     ```
-3. Installa le dipendenze richieste eseguendo:
-   ```bash
+   git clone https://github.com/LuigiStigliano/Stock-API.git
+   cd Stock-API
+   ```
+
+2. Creare e attivare un ambiente virtuale:
+   ```
+   # Su Windows
+   python -m venv .venv
+   .venv\Scripts\activate
+   
+   # Su macOS/Linux
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Installare le dipendenze:
+   ```
    pip install -r requirements.txt
    ```
 
