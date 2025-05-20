@@ -3,9 +3,6 @@
 ## Descrizione
 Questa applicazione consente di visualizzare grafici dei dati di mercato azionario utilizzando l'API di Alpha Vantage. Gli utenti possono selezionare un simbolo azionario e un intervallo di tempo per generare un grafico con i valori di apertura, chiusura e medi. Inoltre, i dati del grafico possono essere salvati in un database SQLite tramite un server Flask.
 
-## Requisiti
-- Python 3.x
-
 ## Installazione
 
 1. Clonare il repository:
